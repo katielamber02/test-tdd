@@ -3,7 +3,14 @@
 exports[`Gift renders properly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Gift />,
+  Symbol(enzyme.__unrendered__): <Gift
+    gift={
+      Object {
+        "id": 1,
+      }
+    }
+    removeGift={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -18,240 +25,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <ForwardRef(Bootstrap(Form))>
-        <ForwardRef(Bootstrap(FormGroup))>
-          <ForwardRef(ContextTransform)>
-            Person
-          </ForwardRef(ContextTransform)>
-          <ForwardRef(ContextTransform)
-            className="input-person"
-            onChange={[Function]}
-          />
-        </ForwardRef(Bootstrap(FormGroup))>
-        <ForwardRef(Bootstrap(FormGroup))>
-          <ForwardRef(ContextTransform)>
-            Present
-          </ForwardRef(ContextTransform)>
-          <ForwardRef(ContextTransform)
-            className="input-present"
-            onChange={[Function]}
-          />
-        </ForwardRef(Bootstrap(FormGroup))>
-      </ForwardRef(Bootstrap(Form))>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <ForwardRef(Bootstrap(FormGroup))>
-            <ForwardRef(ContextTransform)>
-              Person
-            </ForwardRef(ContextTransform)>
-            <ForwardRef(ContextTransform)
-              className="input-person"
-              onChange={[Function]}
-            />
-          </ForwardRef(Bootstrap(FormGroup))>,
-          <ForwardRef(Bootstrap(FormGroup))>
-            <ForwardRef(ContextTransform)>
-              Present
-            </ForwardRef(ContextTransform)>
-            <ForwardRef(ContextTransform)
-              className="input-present"
-              onChange={[Function]}
-            />
-          </ForwardRef(Bootstrap(FormGroup))>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              <ForwardRef(ContextTransform)>
-                Person
-              </ForwardRef(ContextTransform)>,
-              <ForwardRef(ContextTransform)
-                className="input-person"
-                onChange={[Function]}
-              />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": "Person",
-              },
-              "ref": null,
-              "rendered": "Person",
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "defaultProps": undefined,
-                "propTypes": undefined,
-                "render": [Function],
-              },
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "className": "input-person",
-                "onChange": [Function],
-              },
-              "ref": null,
-              "rendered": null,
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "Feedback": [Function],
-                "defaultProps": undefined,
-                "propTypes": undefined,
-                "render": [Function],
-              },
-            },
-          ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              <ForwardRef(ContextTransform)>
-                Present
-              </ForwardRef(ContextTransform)>,
-              <ForwardRef(ContextTransform)
-                className="input-present"
-                onChange={[Function]}
-              />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": "Present",
-              },
-              "ref": null,
-              "rendered": "Present",
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "defaultProps": undefined,
-                "propTypes": undefined,
-                "render": [Function],
-              },
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "className": "input-present",
-                "onChange": [Function],
-              },
-              "ref": null,
-              "rendered": null,
-              "type": Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "Feedback": [Function],
-                "defaultProps": undefined,
-                "propTypes": undefined,
-                "render": [Function],
-              },
-            },
-          ],
-          "type": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "propTypes": undefined,
-            "render": [Function],
-          },
-        },
-      ],
-      "type": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "Check": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "Input": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "propTypes": undefined,
-            "render": [Function],
-          },
-          "Label": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "defaultProps": undefined,
-            "propTypes": undefined,
-            "render": [Function],
-          },
-          "defaultProps": undefined,
-          "propTypes": undefined,
-          "render": [Function],
-        },
-        "Control": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "Feedback": [Function],
-          "defaultProps": undefined,
-          "propTypes": undefined,
-          "render": [Function],
-        },
-        "Group": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "propTypes": undefined,
-          "render": [Function],
-        },
-        "Label": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "propTypes": undefined,
-          "render": [Function],
-        },
-        "Row": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "propTypes": undefined,
-          "render": [Function],
-        },
-        "Text": Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "defaultProps": undefined,
-          "propTypes": undefined,
-          "render": [Function],
-        },
-        "defaultProps": undefined,
-        "propTypes": undefined,
-        "render": [Function],
-      },
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <ForwardRef(Bootstrap(Form))>
+      "children": Array [
+        <ForwardRef(Bootstrap(Form))>
           <ForwardRef(Bootstrap(FormGroup))>
             <ForwardRef(ContextTransform)>
               Person
@@ -271,9 +46,17 @@ ShallowWrapper {
             />
           </ForwardRef(Bootstrap(FormGroup))>
         </ForwardRef(Bootstrap(Form))>,
-      },
-      "ref": null,
-      "rendered": Object {
+        <ForwardRef(Bootstrap(Button))
+          className="btn-remove"
+          onClick={[Function]}
+        >
+          Remove Gift
+        </ForwardRef(Bootstrap(Button))>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
@@ -476,6 +259,286 @@ ShallowWrapper {
           "render": [Function],
         },
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Remove Gift",
+          "className": "btn-remove",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Remove Gift",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(Bootstrap(Form))>
+            <ForwardRef(Bootstrap(FormGroup))>
+              <ForwardRef(ContextTransform)>
+                Person
+              </ForwardRef(ContextTransform)>
+              <ForwardRef(ContextTransform)
+                className="input-person"
+                onChange={[Function]}
+              />
+            </ForwardRef(Bootstrap(FormGroup))>
+            <ForwardRef(Bootstrap(FormGroup))>
+              <ForwardRef(ContextTransform)>
+                Present
+              </ForwardRef(ContextTransform)>
+              <ForwardRef(ContextTransform)
+                className="input-present"
+                onChange={[Function]}
+              />
+            </ForwardRef(Bootstrap(FormGroup))>
+          </ForwardRef(Bootstrap(Form))>,
+          <ForwardRef(Bootstrap(Button))
+            className="btn-remove"
+            onClick={[Function]}
+          >
+            Remove Gift
+          </ForwardRef(Bootstrap(Button))>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef(Bootstrap(FormGroup))>
+                <ForwardRef(ContextTransform)>
+                  Person
+                </ForwardRef(ContextTransform)>
+                <ForwardRef(ContextTransform)
+                  className="input-person"
+                  onChange={[Function]}
+                />
+              </ForwardRef(Bootstrap(FormGroup))>,
+              <ForwardRef(Bootstrap(FormGroup))>
+                <ForwardRef(ContextTransform)>
+                  Present
+                </ForwardRef(ContextTransform)>
+                <ForwardRef(ContextTransform)
+                  className="input-present"
+                  onChange={[Function]}
+                />
+              </ForwardRef(Bootstrap(FormGroup))>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(ContextTransform)>
+                    Person
+                  </ForwardRef(ContextTransform)>,
+                  <ForwardRef(ContextTransform)
+                    className="input-person"
+                    onChange={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Person",
+                  },
+                  "ref": null,
+                  "rendered": "Person",
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "className": "input-person",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "Feedback": [Function],
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(ContextTransform)>
+                    Present
+                  </ForwardRef(ContextTransform)>,
+                  <ForwardRef(ContextTransform)
+                    className="input-present"
+                    onChange={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Present",
+                  },
+                  "ref": null,
+                  "rendered": "Present",
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "className": "input-present",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "Feedback": [Function],
+                    "defaultProps": undefined,
+                    "propTypes": undefined,
+                    "render": [Function],
+                  },
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "Check": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "Input": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "Label": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+              "defaultProps": undefined,
+              "propTypes": undefined,
+              "render": [Function],
+            },
+            "Control": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "Feedback": [Function],
+              "defaultProps": undefined,
+              "propTypes": undefined,
+              "render": [Function],
+            },
+            "Group": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "propTypes": undefined,
+              "render": [Function],
+            },
+            "Label": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "propTypes": undefined,
+              "render": [Function],
+            },
+            "Row": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "propTypes": undefined,
+              "render": [Function],
+            },
+            "Text": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "propTypes": undefined,
+              "render": [Function],
+            },
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Remove Gift",
+            "className": "btn-remove",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Remove Gift",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "propTypes": undefined,
+            "render": [Function],
+          },
+        },
+      ],
       "type": "div",
     },
   ],
