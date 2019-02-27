@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Button } from "react-bootstrap";
 
-class App extends Component {
+export default class App extends Component {
+  state = {
+    gifts: []
+  };
+  addGift = () => {
+    const { gifts } = this.state;
+    const ids = this.state.gifts.map(gift => gift.id);
+    const max_id = ids.length > 0 ? Math.max(...ids) : 0;
+    gifts.push({ id: max_id + 1 });
+    console.log("gifts:", this.state.gifts);
+    this.setState({ gifts });
+  };
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <h2>Gift Giver</h2>
+        <Button className="btn-add" onClick={this.addGift}>
+          Add gift
+        </Button>
       </div>
     );
   }
 }
-
-export default App;
