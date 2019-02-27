@@ -24,5 +24,5 @@ it("adds a new gift to `state` when clicking the add new button", () => {
 });
 it("adds a new gift to the rendered list when clicking the `add gift` button", () => {
   app.find(".btn-add").simulate("click");
-  expect(app.find(".gift-list").children().length).toEqual(1);
+  expect(app.find(".gift-list").children().length).toEqual(2);
 });
